@@ -1,0 +1,60 @@
+<div class="contain">
+  <div class="size" id="outer">
+    <div>
+      <ul class="ul_format">
+        <li class="box">
+          <div class="display" title="Bold" (click)="toggleBold()"><i class="glyphicon glyphicon-bold"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Italic" (click)="toggleItalic()"><i class="glyphicon glyphicon-italic"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Underline" (click)="toggleUnderline()"><b>U</b></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Heading H1" (click)="headingh1()"><i class="glyphicon glyphicon-header"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Justify Center" (click)="justifyCenter()"><i class="glyphicon glyphicon-align-center"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Justify Left" (click)="justifyLeft()"><i class="glyphicon glyphicon-align-left"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Justify Right" (click)="justifyRight()"><i class="glyphicon glyphicon-align-right"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Justify Full" (click)="justifyFull()"><i class="glyphicon glyphicon-align-justify"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Hyperlink" (click)="createLink()"><i class="glyphicon glyphicon-link"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Indent" (click)="indent()"><i class="glyphicon glyphicon-indent-left"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Cut" (click)="cut()"><i class="glyphicon glyphicon-scissors"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Insert Image" (click)=insertImage()><i class="glyphicon glyphicon-picture"></i></div>
+        </li>
+        <!-- <li class="box">
+          <div class="display" title="Copy" (click)="copy()"><i class="glyphicon glyphicon-duplicate"></i></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Paste" (click)="paste()"><i class="glyphicon glyphicon-paste"></i></div>
+        </li> -->
+        <li class="box">
+          <div class="display" title="Undo" (click)="undo()"><b>Undo</b></div>
+        </li>
+        <li class="box">
+          <div class="display" title="Redo" (click)="redo()"><b>Redo</b></div>
+        </li>
+      </ul>
+    </div>
+        <iframe class="adjust" id="editor" name="text-editor" src="app/components/text-editor/editable.htm">
+        <input type='file' id ="image" (change)="readURL($event);" style="visibility: hidden">
+            <img id="blah" src="#" >
+            </iframe>
+  </div>
+</div>

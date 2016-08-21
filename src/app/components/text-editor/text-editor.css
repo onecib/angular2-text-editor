@@ -1,0 +1,32 @@
+.contain{
+  padding-top:10px;
+  padding-left: 10px;
+  width: 750px;
+  height: 800px;
+}
+.size{
+  resize: both;
+  overflow:hidden;
+}
+.adjust{
+  height: 100%;
+  width:100%
+}
+.ul_format{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.display{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.box{
+  border-right: 1px solid #bbb;
+  float: left;
+}
